@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right, black, rgb(189, 189, 189), black);
+}
+
+/* Select The Weather */
+.theWeather-container{
+    padding: 10px;
+    font-family: helvetica, sans-serif;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px auto 10px;
+    background-image: linear-gradient(to left, snow, rgb(185, 195, 248), snow);
+    box-shadow: 4px 4px 9px black;
+}
+#weather{
+    margin: 10px 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+}
+#resultWeather{
+    padding: 10px;
+    background-color: rgb(0, 9, 87);
+    color: white;
+    visibility: hidden;
+    font-size: large;
+}
+
+/* zfhbfd */
+.nesting, #notLogicalOperator{
+    background-color: black;
+    color: yellow;
+    width: 50%;
+    margin: 0px auto;
+    padding: 15px;
+    border:4px double yellow;
+    margin-bottom: 10px;
+}
+
+/* Black and white ternary operator */
+#changeColor-container{
+    width: 17%;
+    margin: 10px auto 10px;
+    box-shadow: 4px 4px 8px black;
+}
+.changeCoh1{
+    margin: 15px 0px 0px;
+}
+
+/* look for a telephone number */ /* the square root of... */
+.phoneNumber-container, .squareRoot-container{
+    width: 19%;
+    margin: 10px auto 10px;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+}
+.numberResult, #SquareResult{
+    margin-top: 10px;
+    font-size: larger;
+    text-decoration: underline;
+}
+#search, #textSquare{
+    margin: 10px 0px 0px;
+    padding: 3px 0px;
+}
+#btn, #btnSquare{
+    margin-left: 10px;
+    border: 4px double black;
+    padding: 0px 10px;
+    font-weight: bold;
+    background-color: rgb(250, 162, 224);
+}
+
+/* My Own Function */
+#MyOwnFunction-container{
+    width: 19.5%;
+    margin: 10px auto 10px;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    background-color: rgba(169, 246, 250, 0.514);
+    position: relative;
+}
+.msgBox{
+    width: 242px; 
+    border-radius: 10px;
+    padding-right: 10px;
+}
+.msgBox p {
+    padding-left: 82px;
+    background-position: 25px center;
+    background-repeat: no-repeat;
+}
+.msgBox button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgb(128, 128, 128);
+    font-size: 1.1rem;
+}
+#btnMyFunction{
+    padding: 2px 20px;
+    margin-bottom: 20px;
+    background-color: rgb(51, 191, 247);
+    border: 3px outset rgb(0, 129, 250) ;
+}
+
+/* Function Library example */
+#functionLibrary-container{
+    width: 27%;
+    margin: 10px auto 10px;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    background-color: rgba(128, 255, 111, 0.418);
+}
+.numberInput{
+    font-size: 2em;
+    margin: 10px 1px 0px;
+    padding-bottom: 2px;
+}
+
+/* random Changing Color */
+#changingColor-container{
+    width: 30%;
+    height: 200px;
+    margin: 10px auto 10px;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 10px double white;
+}
+.ChangeColorButton{
+    padding: 15px;
+    border: 10px double white;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Event target example/colorfullbox */
+#colorfullBox-container{
+    width: 50%;
+    height: 420px;
+    margin: 10px auto;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.colorDivs{
+    background-color: rgba(233, 10, 10, 0.288);
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+
+/* Submit Form preventDefault()*/
+#submitForm-container{
+    width: 25%;
+    margin: 10px auto;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    background-color: rgba(10, 255, 10, 0.295);
+}
+#lname{
+    margin-top: 10px;
+}
+#submit{
+    margin: 10px 0px;
+}
+#prgrgh{
+    padding: 10px 0px;
+}
+
+/* Show video box example bubbling and capture */
+#showVideoBubbling-container{
+    width: 16.5%;
+    height: 410px;
+    margin: 10px auto;
+    box-shadow: 4px 4px 8px black;
+    padding: 10px;
+    background-color: rgba(63, 10, 255, 0.295);
+    position: relative;
+}
+#diiv{
+    width: 450px;
+    position: absolute;
+}
+#battn{
+    margin-bottom: 10px;
+}
+.hidden{
+    left: -350%;
+}
+.showing{
+    left: -0%;
+}
+div video {
+    display: block;
+    width: 220px;
+    height: 360px;
+}

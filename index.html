@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <title>Apply javascript example</title>
+        <LINK REL=StyleSheet HREF="css/styless.css" TYPE="text/css">       
+    </head>
+    <body>
+        <!-- Select The Weather -->
+        <div class="theWeather-container">
+            <label for="weather">Select the weather type today: </label>
+            <select id="weather">
+                <option value="">--Make a choice--</option>
+                <option value="sunny">Sunny</option>
+                <option value="rainy">Rainy</option>
+                <option value="snowing">Snowing</option>
+                <option value="overcast">Overcast</option>
+            </select>
+            <p id="resultWeather"></p>
+        </div>
+
+        <!-- dsdgewg -->
+        <p id="nestingIf...else" class="nesting"></p>
+        <p id="notLogicalOperator"></p>
+        
+        <!-- Black and white ternary operator -->
+        <div id="changeColor-container">
+            <label for="theme">Select theme: </label>
+            <select id="theme">
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <!-- <option value="green">Green</option> -->
+            </select>
+                <h1 class="changeCoh1">Change color</h1>
+        </div>
+
+        <!-- look for a telephone number -->
+        <div class="phoneNumber-container">
+            <label for="search">Search by contact name: </label>
+            <input type="text" id="search">
+            <button id="btn">Search</button>
+            <p class="numberResult" id="numberResultt"></p>
+        </div>
+
+        <!-- the square root of... -->
+        <div class="squareRoot-container">
+            <label for="square">Look for a square root: </label>
+            <input type="text" id="textSquare">
+            <button id="btnSquare">Search</button>
+            <p id="SquareResult"></p> 
+        </div>
+
+        <!-- My Own Function -->
+        <div id="MyOwnFunction-container">
+            <button id="btnMyFunction">Display message box</button>
+        </div>
+
+        <!-- Function Library example -->
+        <div id="functionLibrary-container">
+            <input type="text" class="numberInput">
+            <p class="libraryResult"></p>
+        </div>
+
+        <!-- random Changing Color -->
+        <div id="changingColor-container">
+            <button name="tt" class="ChangeColorButton" id="cCB" >Change color 1</button>
+            <button name="tt" class="ChangeColorButton" >Change color 2</button>
+            <button name="tt" class="ChangeColorButton" >Change color 3</button>
+            <button name="tt" class="ChangeColorButton" >Change color 4</button>
+        </div>
+
+        <!-- Event target example/colorfullbox -->
+        <div id="colorfullBox-container">
+
+        </div>
+
+        <!-- submit form preventDefault()-->
+        <div id="submitForm-container">
+            <form action="" id="form">
+                <div>
+                    <label for="fname">First name: </label>
+                    <input type="text" id="fname">
+                </div>
+                <div>
+                    <label for="lname">Last name: </label>
+                    <input type="text" id="lname">
+                </div>
+                <div>
+                    <input type="submit" id="submit">
+                </div>
+            </form>
+            <p id="prgrgh"></p> 
+        </div>
+
+        <!-- Show video box example bubbling and capture -->
+        <div id="showVideoBubbling-container">
+            <button id="battn">Display video</button>
+            <div class="hidden" id="diiv">
+                <video>
+                    <source src="images/videoTrain.mp4" type="video/mp4">
+                        <p>Your browser doesn't support HTML5 video. Here is a <a href="images/videoTrain.mp4">link to the video</a> instead.</p> 
+                </video>
+            </div>
+        </div>
+        <script src="js/01-file.js"></script>
+    </body>
+</html>
